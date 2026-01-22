@@ -1,3 +1,4 @@
+//Portfolio category switching
 const buttons = document.querySelectorAll(".portfolio-btn");
 const categories = document.querySelectorAll(".project-category");
 
