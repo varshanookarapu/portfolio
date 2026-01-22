@@ -33,13 +33,15 @@ nav {
 
 
 .hero {
-  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: center; /* THIS centers horizontally */
+  text-align: center;  /* THIS centers text inside */
+  min-height: 90vh;
+  width: 100%;         /* ensure it spans full width */
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .hero h1 {
@@ -51,4 +53,17 @@ nav {
   font-size: 1.1rem;
   margin-bottom: 30px;
   color: #444;
+}
+
+.btn {
+  border: 1px solid hsl(80 60% 35%);
+  padding: 10px 25px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: hsl(80 60% 35%);
+  color: white;
 }
