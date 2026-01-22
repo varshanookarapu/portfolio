@@ -132,14 +132,14 @@ nav {
   font-size: 2.2rem;
   font-weight: 400;
   margin-bottom: 20px;
-  text-align: justify;
+  text-align: left;
 }
 
 .about-right p {
   margin-bottom: 15px;
   line-height: 1.8;
   color: #333;
-  text-align: left;
+  text-align: justify;
 }
 
 /* Timeline / Milestones */
