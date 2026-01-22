@@ -291,7 +291,7 @@ nav {
   justify-content: center;  /* vertically center the content */
   align-items: center;      /* center horizontally like hero */
   text-align: center;       /* center text inside */
-  min-height: 95vh         /* same as hero */
+  min-height: 95vh;         /* same as hero */
   width: 100%;              /* full width */
   padding: 0 20px;          /* horizontal padding same as hero */
   box-sizing: border-box;
