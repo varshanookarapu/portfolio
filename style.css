@@ -55,11 +55,11 @@ nav {
   justify-content: center;
   align-items: center; /* THIS centers horizontally */
   text-align: center;  /* THIS centers text inside */
-  min-height: 90vh;
+  min-height: calc(100vh -92px);
   width: 100%;         /* ensure it spans full width */
   padding: 0 20px;
   box-sizing: border-box;
-  scroll-margin-top : 100px;
+  scroll-margin-top : 92px;
 }
 
 .hero h2 {
@@ -110,7 +110,7 @@ nav {
   padding: 0 20px;
   box-sizing: border-box;
   background: #ffffff; /* white background */
-  scroll-margin-top : 100px;
+  scroll-margin-top : 92px;
 }
 
 .about-container {
