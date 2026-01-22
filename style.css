@@ -382,6 +382,74 @@ nav {
   }
 }
 
+/* ----------------- Contact Section ----------------- */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical center like hero */
+  align-items: center;       /* horizontal center */
+  text-align: center;
+  min-height: 90vh;          /* same height as hero/skills/portfolio */
+  width: 100%;
+  padding: 0 20px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  max-width: 700px;
+  width: 100%;
+}
+
+.contact-container h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  margin-bottom: 40px;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+
+/* ----------------- Social Buttons ----------------- */
+ul.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+  text-align: center;
+}
+
+ul.social-buttons li a:hover {
+  background-color: hsl(80 60% 35%); /* accent color */
+  transform: translateY(-3px);
+}
+
+/* ----------------- Responsive ----------------- */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 0 10px;
+  }
+}
 
 
 
