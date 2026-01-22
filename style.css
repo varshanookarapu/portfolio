@@ -109,6 +109,7 @@ nav {
   padding: 0 20px;
   box-sizing: border-box;
   background: #ffffff; /* white background */
+  scroll-margin-top : 100px;
 }
 
 .about-container {
