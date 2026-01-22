@@ -104,8 +104,6 @@ nav {
 /* About Section */
 /* ----------------- About Section ----------------- */
 .about-section{
- 
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,6 +114,7 @@ nav {
   padding: 0 20px;
   box-sizing: border-box;
   background: #ffffff; /* white background */
+  scroll-margin:92px;
   
 }
 
