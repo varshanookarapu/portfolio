@@ -110,7 +110,7 @@ nav {
   width : 100%
   max-width: 1100px;
   display: flex;
-  align-items:center;
+  align-items:flex-start;
   gap: 60px;
   justify-content:flex-start;
   flex-wrap: wrap; /* stack on small screens */
