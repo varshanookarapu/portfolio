@@ -228,15 +228,21 @@ nav {
   align-items: center; /* vertically center text inside each skill */
 }
 
+
 .skill-item {
   background: hsl(80 60% 35%); /* accent color */
   color: #fff;
   font-weight: 500;
-  padding: 20px 0; /* same vertical padding */
-  width: 140px;    /* fixed width for uniformity */
-  text-align: center;
+  width: 160px;       /* fixed width */
+  height: 60px;       /* fixed height */
+  display: flex;      /* use flex to center text */
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
   border-radius: 25px;
   transition: transform 0.3s ease, background 0.3s ease;
+  text-align: center; /* ensure text wraps nicely */
+  padding: 0 10px;   /* some horizontal padding for long words */
+  box-sizing: border-box;
   cursor: default;
 }
 
@@ -247,16 +253,20 @@ nav {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+
   .skills-grid {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 15px;
   }
-
   .skill-item {
     width: 120px;  /* slightly smaller on mobile */
-    padding: 15px 0;
+    height: 50px;
+    padding: 0 8px;
   }
 }
+
+
+
 
 
 
