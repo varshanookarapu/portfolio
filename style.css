@@ -108,7 +108,7 @@ nav {
 .about-container {
   max-width: 1100px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 60px;
   justify-content: center;
   flex-wrap: wrap; /* stack on small screens */
