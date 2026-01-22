@@ -95,55 +95,57 @@ nav {
 
 
 /* About Section */
+
+/* About Section Container */
 .about-section {
   max-width: 1100px;
   margin: auto;
   padding: 80px 20px;
 }
 
-/* Flex container for image + text side by side */
+/* Flex for image + text */
 .about-container {
   display: flex;
-  align-items: flex-start;  /* align top edges */
-  gap: 50px;
+  align-items: flex-start;
+  gap: 60px;
   justify-content: center;
 }
 
-/* Left block: image */
+/* Left block: profile image */
 .about-left img {
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid hsl(80 60% 35%);
 }
 
-/* Right block: about text */
+/* Right block: about text + timeline */
 .about-right {
-  flex: 1; /* take remaining space */
+  flex: 1;
 }
 
 .about-right h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
 .about-right p {
   margin-bottom: 15px;
-  line-height: 1.7;
+  line-height: 1.8;
   color: #333;
 }
 
-/* Timeline */
+/* Integrated timeline / milestones */
 .timeline {
-  margin-top: 60px;
-  border-left: 3px solid hsl(80 60% 35%);
+  margin-top: 40px;
   padding-left: 20px;
+  border-left: 3px solid hsl(80 60% 35%);
 }
 
 .timeline-item {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .timeline-item span {
@@ -155,8 +157,8 @@ nav {
 }
 
 .timeline-item h4 {
-  margin-bottom: 5px;
   font-weight: 400;
+  margin-bottom: 5px;
 }
 
 .timeline-item p {
@@ -185,3 +187,5 @@ nav {
     border-left-width: 2px;
   }
 }
+
+
