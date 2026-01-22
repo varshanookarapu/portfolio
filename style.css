@@ -95,32 +95,35 @@ nav {
 
 
 /* About Section */
-
-/* About Section Container */
-.about-section {
-  max-width: 1100px;
-  margin: auto;
+/* ----------------- About Section ----------------- */
+.about {
+  width: 100%;
+  background: #ffffff; /* white background */
   padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
-/* Flex for image + text */
 .about-container {
+  max-width: 1100px;
   display: flex;
   align-items: flex-start;
   gap: 60px;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap; /* stack on small screens */
 }
 
-/* Left block: profile image */
+/* Left: Profile image */
 .about-left img {
   width: 280px;
   height: 280px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid hsl(80 60% 35%);
+  border: 3px solid hsl(80 60% 35%); /* accent color border */
 }
 
-/* Right block: about text + timeline */
+/* Right: About text + timeline */
 .about-right {
   flex: 1;
 }
@@ -129,15 +132,17 @@ nav {
   font-size: 2.2rem;
   font-weight: 400;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .about-right p {
   margin-bottom: 15px;
   line-height: 1.8;
   color: #333;
+  text-align: left;
 }
 
-/* Integrated timeline / milestones */
+/* Timeline / Milestones */
 .timeline {
   margin-top: 40px;
   padding-left: 20px;
@@ -187,5 +192,6 @@ nav {
     border-left-width: 2px;
   }
 }
+
 
 
