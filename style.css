@@ -1,3 +1,20 @@
+/* Root color variables */
+:root {
+  --primary-color: #000000;
+  --background-color: #ffffff;
+  --accent-color: hsl(80 60% 35%);
+}
+
+/* Apply Montserrat globally */
+body, h1, h2, h3, h4, h5, h6, p, a, span, li {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--primary-color);
+  box-sizing: border-box;
+}
+
+
 nav {
   position: sticky;
   top: 0;
