@@ -49,40 +49,7 @@ nav {
 }
 
 
-/* .nav-link {
-  text-decoration: none;
-  color: #000;
-  font-weight: 400;
-  padding: 8px 0;
-  position: relative;
-  transition: color 0.3s ease;
-}
 
-.nav-link:hover {
-  color: hsl(80 60% 35%);
-}
-
-/* Active link */
-.nav-link.active {
-  color: hsl(80 60% 35%);
-}
-
-/* Optional underline animation (recommended ✨) */
-.nav-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 0;
-  height: 2px;
-  background-color: hsl(80 60% 35%);
-  transition: width 0.3s ease;
-}
-
-.nav-link.active::after {
-  width: 100%;
-}
- */
 
 
 
