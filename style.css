@@ -199,12 +199,17 @@ nav {
 
 /* ----------------- Skills Section ----------------- */
 .skills {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  min-height:90vh;
   width: 100%;
   background: #ffffff; /* white background */
-  padding: 80px 20px;
-  display: flex;
-  justify-content: center; /* center container horizontally */
+  padding: 0px 20px;
   box-sizing: border-box;
+
 }
 
 .skills-container {
