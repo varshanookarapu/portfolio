@@ -112,7 +112,7 @@ nav {
   gap: 60px;
   justify-content:flex-start;
   flex-wrap: wrap; /* stack on small screens */
-  padding: 0 20px;
+  padding: 0 400px;
   
 }
 
