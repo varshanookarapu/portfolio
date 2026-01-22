@@ -106,7 +106,6 @@ nav {
 }
 
 .about-container {
-  margin : auto;
   max-width: 1100px;
   display: flex;
   align-items:flex-start;
