@@ -97,12 +97,18 @@ nav {
 /* About Section */
 /* ----------------- About Section ----------------- */
 .about {
-  width: 100%;
-  background: #ffffff; /* white background */
-  padding: 80px 20px;
+ 
+  
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center; /* THIS centers horizontally */
+  text-align: center;  /* THIS centers text inside */
+  min-height: 90vh;
+  width: 100%;         /* ensure it spans full width */
+  padding: 0 20px;
   box-sizing: border-box;
+  background: #ffffff; /* white background */
 }
 
 .about-container {
