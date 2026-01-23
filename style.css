@@ -48,6 +48,14 @@ nav {
   font-size: 0.9rem;
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 
 /* Nav Bar Media responsiveness  */
 @media (max-width: 768px) {
