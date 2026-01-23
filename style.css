@@ -221,13 +221,14 @@ nav {
   color: hsl(80 60% 35%);
   font-weight: 500;
   font-size: 0.9rem;
-  display: block;
+  display: flex;
   margin-bottom: 5px;
 }
 
 .timeline-item h4 {
   font-weight: 400;
   margin-bottom: 5px;
+  display : flex;
 }
 
 .timeline-item p {
