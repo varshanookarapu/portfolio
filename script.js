@@ -26,3 +26,11 @@ const toggle = document.querySelector(".menu-toggle");
   toggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
   });
+
+
+//Autoclose menu on link Click
+document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("active");
+    });
+  });
