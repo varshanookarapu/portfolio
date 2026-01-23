@@ -4,7 +4,9 @@
   --background-color: #ffffff;
   --accent-color: hsl(80 60% 35%);
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* Apply Montserrat globally */
 body, h1, h2, h3, h4, h5, h6, p, a, span, li {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
